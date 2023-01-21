@@ -1,5 +1,5 @@
 package com.twitteroo.twitteroo.dto;
 
-public record PersonDTO(Long id , String name , String avatar) {
+public record PersonDTO(Long id , String username , String avatar) {
     
 }

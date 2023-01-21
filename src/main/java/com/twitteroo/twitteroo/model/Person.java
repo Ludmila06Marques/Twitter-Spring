@@ -19,7 +19,7 @@ public class Person {
     public Person( PersonDTO data){
         this.id=data.id();
         this.avatar=data.avatar();
-        this.name=data.name();
+        this.username=data.username();
     }
 
 
@@ -28,7 +28,7 @@ public class Person {
     private Long id;
     
     @Column( length = 20 , nullable = false)
-    private String name;
+    private String username;
 
     @Column( length = 5000 , nullable = false)
     private String avatar;
